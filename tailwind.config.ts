@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -80,10 +81,40 @@ export default {
             height: "0",
           },
         },
+        "float": {
+          "0%, 100%": {
+            transform: "translateY(0px)",
+          },
+          "50%": {
+            transform: "translateY(-10px)",
+          },
+        },
+        "bounce-gentle": {
+          "0%, 100%": {
+            transform: "translateY(0px)",
+          },
+          "50%": {
+            transform: "translateY(-5px)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 3s ease-in-out infinite",
+        "bounce-gentle": "bounce-gentle 2s ease-in-out infinite",
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-background': 'var(--gradient-background)',  
+        'gradient-card': 'var(--gradient-card)',
+      },
+      boxShadow: {
+        'card': 'var(--shadow-card)',
+        'button': 'var(--shadow-button)',
+      },
+      fontFamily: {
+        'round': ['Comic Sans MS', 'Malgun Gothic', 'Apple SD Gothic Neo', 'sans-serif'],
       },
     },
   },
