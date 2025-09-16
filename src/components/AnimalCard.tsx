@@ -8,7 +8,7 @@ interface AnimalCardProps {
 
 export const AnimalCard = ({ animal }: AnimalCardProps) => {
   return (
-    <Card className="overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-card bg-gradient-card border-2 border-border/50 hover:border-primary/30 animate-float">
+    <Card className="overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-card bg-gradient-card border-2 border-border/50 hover:border-primary/30">
       <CardContent className="p-0">
         <div className="aspect-video bg-muted/30 flex items-center justify-center">
           <img
