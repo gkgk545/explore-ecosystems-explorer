@@ -26,7 +26,7 @@ const Index = () => {
               <SearchIcon className="h-8 w-8 text-primary-foreground" />
             </div>
             <h1 className="text-4xl sm:text-5xl font-round font-bold bg-gradient-primary bg-clip-text text-transparent">
-              🌍 생태계 탐험대
+              🌍 곡수초 생태계 탐험대
             </h1>
           </div>
         </div>
